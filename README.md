@@ -17,8 +17,7 @@ You can also click `vendor_append_walkthrough.ipynb` in the file list above to r
 Two Tableau dashboards built from the output tables:
 **Feed Health** (validation results) and **Vendor Performance** (coverage, gaps and accuracy).
 
-[View on Tableau Public]
-(https://public.tableau.com/views/Vendor_Append/Dashboard_VendorValid?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View on Tableau Public](https://public.tableau.com/app/profile/marcela.hladilova/viz/VendorDataAppendValidationCoverage/Dashboard_VendorPerfrm#1)
 
 ## Why this project
 It mirrors a process I ran every year at Nielsen (phone appends from three vendors
