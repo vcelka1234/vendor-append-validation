@@ -1,0 +1,5 @@
+order,vendor,standalone_matches,standalone_rate,new_matches_added,cumulative_matches,cumulative_rate
+1,Vendor A,24274.0,0.60685,24274,24274,0.60685
+2,Vendor B,17016.0,0.4254,6190,30464,0.7616
+3,Vendor C,14280.0,0.357,2983,33447,0.836175
+4,No phone (in-person follow-up),,,6553,40000,1.0

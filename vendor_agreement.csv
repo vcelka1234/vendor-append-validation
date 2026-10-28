@@ -1,0 +1,4 @@
+pair,overlap_households,same_phone,agreement_rate
+Vendor A vs Vendor B,10826,8566,0.7912433031590616
+Vendor A vs Vendor C,9123,6743,0.7391209032116628
+Vendor B vs Vendor C,6477,4370,0.6746950748803459

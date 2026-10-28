@@ -1,0 +1,23 @@
+vendor,check,value,status,detail
+Vendor A,Expected columns present,0,PASS,all present
+Vendor A,Record count vs. sent,0,PASS,"received 40,000 / sent 40,000"
+Vendor A,IDs not in outbound file,0,PASS,
+Vendor A,Sent IDs missing from return,0,PASS,
+Vendor A,Duplicate household IDs,0,PASS,
+Vendor A,Invalid phone format (matched),0,PASS,0.0% of matches
+Vendor A,Phone shared across households,0,PASS,
+Vendor B,Expected columns present,0,PASS,all present
+Vendor B,Record count vs. sent,300,WARN,"received 40,300 / sent 40,000"
+Vendor B,IDs not in outbound file,0,PASS,
+Vendor B,Sent IDs missing from return,0,PASS,
+Vendor B,Duplicate household IDs,300,WARN,
+Vendor B,Invalid phone format (matched),356,WARN,2.0% of matches
+Vendor B,Phone shared across households,0,PASS,
+Vendor C,Expected columns present,0,PASS,all present
+Vendor C,Record count vs. sent,-210,WARN,"received 39,790 / sent 40,000"
+Vendor C,IDs not in outbound file,40,WARN,
+Vendor C,Sent IDs missing from return,250,WARN,
+Vendor C,Duplicate household IDs,0,PASS,
+Vendor C,Invalid phone format (matched),0,PASS,0.0% of matches
+Vendor C,Phone shared across households,0,PASS,
+Vendor C (next year),Expected columns present,1,FAIL,"missing: phone_nbr; found: cust_ref, hit, phone_number, process_date"

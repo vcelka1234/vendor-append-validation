@@ -1,0 +1,13 @@
+source_vendor,call_result,households,share
+Vendor A,Completed interview,12234,0.5039960451511906
+Vendor A,Disconnected,3330,0.13718381807695476
+Vendor A,No answer / refused,8066,0.33228969267529046
+Vendor A,Wrong number,644,0.026530444096564226
+Vendor B,Completed interview,2917,0.4712439418416801
+Vendor B,Disconnected,1067,0.17237479806138933
+Vendor B,No answer / refused,1876,0.3030694668820679
+Vendor B,Wrong number,330,0.05331179321486268
+Vendor C,Completed interview,1311,0.4394904458598726
+Vendor C,Disconnected,606,0.20315119007710358
+Vendor C,No answer / refused,850,0.28494803888702647
+Vendor C,Wrong number,216,0.07241032517599731
