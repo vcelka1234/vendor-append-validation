@@ -64,3 +64,13 @@ The summary tables are included in this repository. The raw vendor files are not
 - Vendor C adds only ~7% new coverage and has the highest disconnected/wrong-number share.
 - Match rates are lowest for rural and 18–34 households, a coverage gap worth flagging
   before using the data for targeting or measurement.
+
+## About this project
+I designed this project based on the multi-vendor phone-append process I managed
+at Nielsen. 
+I defined the requirements: what problems to simulate in the vendor
+files, which validation checks to run, how to combine vendors, and which metrics
+to report. 
+The synthetic data files with simulated problems were generated with AI tools.
+I reviewed and ran the code, checked that every planted data problem was caught,
+interpreted the results, and built the Tableau dashboards from the output.
